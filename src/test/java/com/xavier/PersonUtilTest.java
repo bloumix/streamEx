@@ -41,7 +41,7 @@ public class PersonUtilTest {
     private final List<Person> personList = Arrays.asList(
             createPerson("Xavier", 7, Collections.singletonList(new Email("xavier@yo.com")))
             , createPerson("Raphael", 6, Arrays.asList(new Email("raphi@yo.com"), new Email("otherEmailRaphi@yo.com")))
-            , createPerson("Nico", 1, Collections.singletonList(new Email("nico@yo.com")))
+            , createPerson("Nico", 5, Collections.singletonList(new Email("nico@yo.com")))
             , createPerson("Cedric", 10, Collections.singletonList(new Email("cedr@yo.com")))
             , createPerson("Tchiou", 7, Collections.singletonList(new Email("tchioutchiou@yo.com")))
             , createPerson("Ihmen", 7, Collections.singletonList(new Email("imhen@yo.com")))
